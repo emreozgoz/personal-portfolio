@@ -24,7 +24,7 @@
     "start": "nodemon start.js",
     "client": "react-scripts start",
     "dev": "react-scripts start",
-    "buildd": "react-scripts build",
+    "buildd": "react-scripts",
     "build": "concurrently \"npm run buildd\" \"npm run start\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
