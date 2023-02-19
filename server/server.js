@@ -29,7 +29,7 @@ contactEmail.verify((error) => {
   }
 });
 
-router.post("/test",(req,res)=>{
+router.get("/test",(req,res)=>{
   console.log("testt");
 })
 
