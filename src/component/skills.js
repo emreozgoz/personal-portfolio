@@ -36,7 +36,7 @@ return(
                         <h2>
                             Skills
                         </h2>
-                        <p>My Skills</p>
+                        <p>My Coding Skills</p>
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image"/>
@@ -49,10 +49,6 @@ return(
                             <div className="item">
                                 <img src={meter3} alt="Image"/>
                                 <h5>Artificial Intelligence</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image"/>
-                                <h5>Backend Development</h5>
                             </div>
                         </Carousel>
                     </div>
